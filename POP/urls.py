@@ -19,5 +19,6 @@ import POP.views as views
 urlpatterns = [
     path('', views.main, name='main'),
     path('join/', views.join),
-    path('ID_check', views.ID_check, name="ID_check")
+    path('ID_check', views.ID_check, name="ID_check"),
+    path('join_agree', views.join_agree, name="join_agree"),
 ]

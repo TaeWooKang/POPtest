@@ -9,6 +9,10 @@ def main(request):
     return render(request,'POP/main.html',{})
 
 
+def join_agree(request):
+    return render(request,'POP/join_agree.html',{})
+
+
 
 def join(request):
     if request.method=='GET':
